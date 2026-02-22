@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <meta charset="UTF-8">
+		       <title>Basic Website</title>			  
+                <meta name="description" content="Free Web tutorials">
+                <meta name="keywords" content="HTML, CSS, JavaScript">
+                <meta name="author" content="rabbi">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				      <link rel="stylesheet" href="front/css/all.min.css">
+	                  <link rel="stylesheet" href="css/stylee.css">                 
+     </head>
+           <body>
+		        <div class="templete">
+                    <div class="headersection"> 
+				        <div class="logo">
+						     <a><i class="fa-solid fa-globe"></i></a>							
+							 <h2>website title</h2>																					 
+					    </div>
+							<div class="social">
+								 <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+								 <a target="_blank" href="https://x.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+								 <a target="_blank" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+								 <a target="_blank" href="https://workspace.google.com/"><i class="fa-brands fa-google-plus-g"></i></a>
+							</div>						
+				</div>
+						<div class="navsection clear"> 
+							<ul>
+								<li><a href="index.html">Home</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+							    <li><a href="news.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>    	
+        <div class="cleaner"></div>
+    </div> <!-- end of tooplate_menu -->
+    
+    <div id="tooplate_middle_subpage">
+        <h2>Contact Information</h2>
+        <p>Welcome,
+     We provide Software, Web Development, and Mobile App Development services using modern technologies.
+
+For any inquiries about our services, please feel free to contact us.
+We ensure fast, reliable, and professional support for all our clients</p>
+    </div>
+        
+    <div id="tooplate_main">
+        <div class="col_w960 col_w960_last">
+		
+            <div class="col_w450 float_l">
+           	  	<h3>Quick Contact Form</h3>
+              	<div id="cp_contact_form">
+				
+                    <form method="post" name="contact" action="#"> 
+	
+						<label for="author">Name:</label> 
+                        <input name="author" type="text" class="required input_field" id="author" maxlength="40" /> 
+					  <div class="cleaner h10"></div> 
+	
+						<label for="email">Email:</label> 
+                    <input name="email" type="text" class="validate-email required input_field" id="email" maxlength="40" /> 
+					  <div class="cleaner h10"></div> 
+	
+						<label for="subject">Subject:</label> 
+                  <input name="subject" type="text" class="validate-subject required input_field" id="subject" maxlength="80"/> 
+					  <div class="cleaner h10"></div> 
+	
+						<label for="text">Message:</label> 
+                <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea> 
+						<div class="cleaner h10"></div>                
+	
+						<input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" /> 
+						<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" /> 
+	
+					</form>
+    
+            	</div>
+            </div>
+            
+            <div class="col_w450 float_r" id="map">
+            	<h3>Our Location</h3>
+                <a href="images/map_big.jpg" title="Our Location">
+                    <img src="images/map_thumb.jpg" alt="Map" />
+                </a>
+
+				<div class="cleaner h30"></div>
+                                
+                <h3>Our Address</h3>
+                <h2>TNR Soft</h2>
+                Holding No: 45, Main Road<br/>
+                Poba para, Rajshahi <br/>
+                Rajshahi-6200<br/>
+				
+                Tel: +880 1746-560042<br />
+				Email: info@tnrsoft.com<br />
+            </div>
+            
+            <div class="cleaner"></div>
+		</div>
+        
+        <div class="cleaner"></div>
+    </div> <!-- end of main -->
+        
+</div> <!-- end of wrapper -->
+
+<div id="tooplate_cr_wrapper">
+	<div id="tooplate_cr">
+    	
+        Copyright © 2026 <a href="#">Company Name</a> - Md Ahasanul Hoque Rabbi: <a href="https://www.facebook.com/md.ahasanulhoquerabbi">contact</a>
+
+    </div> <!-- end of footer wrapper -->
+</div> <!-- end of footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://lh3.googleusercontent.com/pw/AM-JKLWF0SkwAJSfHjgL7nFpLotncCE2yZnPbAdorAhRKtGtVSMlfY4L1CPgYzjkj2N10JvLEylWv_k8dLedKrXuesFaBcTca3Wn9GNbQIumzZ3kDY3A_PKhPgph1kn0cr2ZWRDYcTW0LwqiC_AarXeJE4_K=s60-no" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+</body>
+</html>
